@@ -60,18 +60,10 @@ public class LMS {
                 int choice = input.nextInt();
 
                 if (choice == 1){
-                    System.out.println("Enter your user name: ");
-                    String userName = input.nextLine();
-                    System.out.println("Enter your password: ");
-                    int userPassword = input.nextInt();
-
-
+                    System.out.println("---- To Login your Account --------");
                 }else if (choice == 2) {
                     System.out.println("---- To Create your Account --------");
-                    System.out.println("ser your username: ");
-                    String userName = input.nextLine();
-                    System.out.println("Set Your Password");
-                    int userPassword = input.nextInt();
+
                 } else {
                     System.out.println("Invalid Input! Try again");
                 }
