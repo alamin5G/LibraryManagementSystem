@@ -23,8 +23,30 @@ public class LMS {
                 System.out.println("7. User Logs");
                 System.out.println("8. Logout");
 
-            }else if (userChoice==2){
+                int choice = input.nextInt();
+                switch (choice){
+                    case 1:
+                        System.out.println("Book list");
+                        break;
+                    case 2:
+                        System.out.println("User list");
+                        break;
+                    case 3:
+                        System.out.println("Add Book");
+                        break;
+                    case 4:
+                        System.out.println("Update Book");
+                        break;
+                    case 5:
+                        System.out.println("Remove Book");
+                    default:
+                        System.out.println("Invalid input");
+                        break;
+                }
 
+            }else if (userChoice==2){
+                System.out.println("1. Login");
+                System.out.println("2. Registration");
 
             }else {
                 System.out.println("Invalid Number Selected!");
