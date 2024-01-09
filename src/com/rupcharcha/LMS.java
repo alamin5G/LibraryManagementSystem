@@ -10,7 +10,6 @@ public class LMS {
             System.out.println("1 for Librarian");
             System.out.println("2 for User");
 
-
             Scanner input = new Scanner(System.in);
             int userChoice = input.nextInt();
             if (userChoice==1){
@@ -39,17 +38,47 @@ public class LMS {
                         break;
                     case 5:
                         System.out.println("Remove Book");
+                        break;
+                    case 6:
+                        System.out.println("Search Book");
+                        break;
+                    case 7:
+                        System.out.println("User Logs");
+                        break;
+                    case 8:
+                        System.out.println("Logout");
+                        break;
                     default:
                         System.out.println("Invalid input");
                         break;
+
                 }
 
             }else if (userChoice==2){
                 System.out.println("1. Login");
                 System.out.println("2. Registration");
+                int choice = input.nextInt();
+
+                if (choice == 1){
+                    System.out.println("Enter your user name: ");
+                    String userName = input.nextLine();
+                    System.out.println("Enter your password: ");
+                    int userPassword = input.nextInt();
+
+
+                }else if (choice == 2) {
+                    System.out.println("---- To Create your Account --------");
+                    System.out.println("ser your username: ");
+                    String userName = input.nextLine();
+                    System.out.println("Set Your Password");
+                    int userPassword = input.nextInt();
+                } else {
+                    System.out.println("Invalid Input! Try again");
+                }
+
 
             }else {
-                System.out.println("Invalid Number Selected!");
+                System.out.println("Invalid Number Selected!\ntyr again");
             }
 
         }
