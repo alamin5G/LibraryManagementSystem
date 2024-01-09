@@ -39,6 +39,16 @@ public class LMS {
                         break;
                     case 5:
                         System.out.println("Remove Book");
+                        break;
+                    case 6:
+                        System.out.println("Search Book");
+                        break;
+                    case 7:
+                        System.out.println("User Logs");
+                        break;
+                    case 8:
+                        System.out.println("Logout");
+                        break;
                     default:
                         System.out.println("Invalid input");
                         break;
