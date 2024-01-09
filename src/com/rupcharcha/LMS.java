@@ -10,7 +10,6 @@ public class LMS {
             System.out.println("1 for Librarian");
             System.out.println("2 for User");
 
-
             Scanner input = new Scanner(System.in);
             int userChoice = input.nextInt();
             if (userChoice==1){
@@ -67,12 +66,14 @@ public class LMS {
                     int userPassword = input.nextInt();
 
 
-                }else if (choice == 2){
+                }else if (choice == 2) {
                     System.out.println("---- To Create your Account --------");
                     System.out.println("ser your username: ");
                     String userName = input.nextLine();
                     System.out.println("Set Your Password");
                     int userPassword = input.nextInt();
+                } else {
+                    System.out.println("Invalid Input! Try again");
                 }
 
 
