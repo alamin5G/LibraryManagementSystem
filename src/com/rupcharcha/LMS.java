@@ -37,6 +37,8 @@ public class LMS {
                     case 4:
                         System.out.println("Update Book");
                         break;
+                    case 5:
+                        System.out.println("Remove Book");
                     default:
                         System.out.println("Invalid input");
                         break;
