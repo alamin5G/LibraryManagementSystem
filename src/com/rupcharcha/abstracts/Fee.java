@@ -1,4 +1,4 @@
-package com.rupcharcha.interfaces;
+package com.rupcharcha.abstracts;
 
 public interface Fee {
 

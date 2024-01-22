@@ -1,6 +1,6 @@
-package com.rupcharcha.impl;
+package com.rupcharcha.user;
 
-import com.rupcharcha.interfaces.Role;
+import com.rupcharcha.abstracts.Role;
 
 public class UserRole extends Role {
 

@@ -1,4 +1,4 @@
-package com.rupcharcha.impl;
+package com.rupcharcha.user;
 
 public class BookImpl {
     private String title;
